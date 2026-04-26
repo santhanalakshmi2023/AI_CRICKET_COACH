@@ -1,0 +1,1 @@
+A fully modular Python pipeline that analyses cricket batting technique fromvideo using **YOLOv8 pose estimation** and generates natural-language coaching feedback via **Gemma 3n 270M** (local, on-device).
