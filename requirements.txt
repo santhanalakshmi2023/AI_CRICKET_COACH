@@ -1,0 +1,19 @@
+# Cricket AI Coach — Python dependencies
+# Install: pip install -r requirements.txt
+
+# Core vision
+ultralytics>=8.2.0       # YOLOv8 pose + object detection
+opencv-python>=4.9.0     # video I/O and drawing
+numpy>=1.26.0
+
+# Gemma 3n 270M — GGUF inference
+# For CPU:
+llama-cpp-python>=0.2.56
+# For GPU (CUDA) — build from source:
+#   CMAKE_ARGS="-DLLAMA_CUDA=on" pip install llama-cpp-python --no-binary llama-cpp-python
+
+# Optional: richer terminal output
+rich>=13.7.0
+
+# Optional: MediaPipe as an alternative pose backend
+# mediapipe>=0.10.9
